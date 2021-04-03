@@ -1,17 +1,13 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import ShowMore from 'react-show-more';
+import React, { useEffect, useState } from 'react';
 import {
   Container,
   HighlightContainer,
   PostsContainer,
-  PageContainer
 } from './styles';
 
-import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import Button from '../../components/Button';
 import api from '../../services/api';
-import { size } from 'polished';
 
 interface IPosts {
   userId: number,
