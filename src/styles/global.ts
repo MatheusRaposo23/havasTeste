@@ -10,7 +10,7 @@ export default createGlobalStyle`
 }
 body{
     font: 400 14px Roboto, sans-serif;
-    background: #fff;
+    background: #E0E4F4;
     -webkit-font-smoothing: antialiased;
 }
 input,button, textarea{
@@ -37,25 +37,7 @@ form textarea{
     line-height: 24px;
     resize: vertical;
 }
-.button{
-    width: 100%;
-    height: 60px;
-    background: #e02041;
-    border: 0;
-    border-radius: 10px;
-    color: #fff;
-    font-weight: bold;
-    margin-top: 16px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    transition: filter 0,2s;
-}
-.button:hover{
-    filter: brightness(60%);
-}
+
 .back-link{
     display: flex;
     align-items: center;
